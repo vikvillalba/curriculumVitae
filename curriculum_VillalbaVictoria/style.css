@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Lexend&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #ebe2e4;
+    min-height: 100vh;
+
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: #f3cad4;
+    width: 100%;
+    padding: 5px;
+    text-align: left;
+    color: #9c6574;
+    font-family: lexend;
+    font-size: 15px;
+}
+footer p{
+    padding-left: 30px;    
+}
+
+.titles {
+    font-family: balsamiq sans;
+    font-size: 40px;
+    color: #a5546a;
+    text-align: center;
+}
+
+.header {
+    background-color: #EDB1C1;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 0;
+
+}
+
+.header h1 {
+
+    font-family: balsamiq sans;
+    font-size: 40px;
+    color: #433C3C
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.menu {
+
+    background-color: #f3cad4;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+
+    text-decoration: none;
+    color: #433C3C;
+    font-weight: bold;
+    font-family: lexend;
+    transition: background-color 0.2s ease;
+}
+
+.menu:hover{
+    background-color: #b6cbe2c0;
+    color: #433c3c50;
+
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.about h1,
+h2 {
+    font-family: balsamiq sans;
+    font-size: 30px;
+    color: #534549;
+}
+
+.about p {
+    font-family: lexend;
+    color: #6d555b;
+    line-height: 1.5;
+
+}
+
+.about b {
+    color: #a5546a;
+}
+
+.schoolLevel {
+    font-family: balsamiq sans;
+    font-size: 18px;
+    color: #a5546a;
+}
+
+.languages {
+    font-family: balsamiq sans;
+    font-size: 18px;
+    color: #a5546a;
+}
+
+.education li {
+    font-family: lexend;
+    color: #6d555b;
+    line-height: 1.5;
+
+}
+
+.school {
+    font-family: balsamiq sans;
+    color: #534549;
+
+}
+
+.personalInfo {
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 2%;
+    padding: 10px;
+    white-space: normal;
+    word-wrap: break-word;
+
+}
+
+.personalInfo ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.personalInfo li a {
+    background-color: #b6cbe2c0;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 30px;
+    width: 255px;
+    font-family: balsamiq sans;
+    font-weight: bold;
+    text-align: center;
+    color: #6d555b;
+    font-size: 20px;
+    transition: background-color 0.2s ease;
+}
+.personalInfo li a:hover{
+    background-color: #edb1c17f;
+    color: #566b82c0;
+
+
+}
+
+.topics1 {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    padding-right: 10%;
+
+}
+
+.topics2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+.education {
+    width: 60%;
+}
+
+
+/* Estilos para interests.html*/
+.interests {
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+
+.interests ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.interest {
+    background-color: #b6cbe2c0;
+    padding: 15px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 60%;
+    font-family: balsamiq sans;
+    font-weight: bold;
+    text-align: center;
+    color: #6d555b;
+    font-size: 20px;
+
+}
+
+.interestDesc {
+    font-family: lexend;
+    color: #6d555b;
+    line-height: 1.5;
+
+}
+
+.interests b {
+    color: #a5546a;
+
+}
+
+.interests i {
+    color: #a5546a;
+
+}
+
+.personalInterests {
+    width: 45%;
+}
+
+.professionalInterests {
+    width: 45%;
+}
+
+/* Estilos para schedule.html*/
+.schedule {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.solucion {
+    background-color: #c5b9d98a;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.arqui {
+    background-color: #b3d3d598;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.dsi {
+    background-color: #e1b0d0b8;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.requisitos {
+    background-color: #b4c8dbcd;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.admin {
+    background-color: #d2bad7e4;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.web {
+    background-color: #e8d1becd;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.conte {
+    background-color: #bec7e8cd;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hora {
+    font-family: lexend;
+    color: #a5546a;
+    font-size: 20px;
+}
+
+th {
+    font-family: balsamiq sans;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    color: #6d555b;
+}
+
+.horaClase{
+    font-family: lexend;
+    color: #24242427;
+    font-size: 13px;
+}
+td{
+    font-family: balsamiq sans;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    color: #242424a6;
+}
